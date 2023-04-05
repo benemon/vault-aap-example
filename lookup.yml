@@ -4,4 +4,4 @@
   tasks:
     - name: Retrieve a KV Secret from HashiCorp Vault
       debug:
-        msg: "Hello World!"
+        msg: "My RHEL Version stored in Vault is {{ vaultkv_secret }}"
