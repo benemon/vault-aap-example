@@ -1,0 +1,7 @@
+---
+- name: HashiCorp Vault Lookup Example
+  hosts: all
+  tasks:
+    - name: Retrieve a KV Secret from HashiCorp Vault
+      debug:
+        msg: "Hello World!"
